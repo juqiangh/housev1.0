@@ -16,16 +16,16 @@
     
     <typeAliases>
        <typeAlias type="com.learning.house.common.model.User" alias="user" />
-       <typeAlias type="com.learning.house.common.model.Agency"      alias="agency"/>
+       <typeAlias type="com.learning.house.common.model.Agency" alias="agency"/>
         <typeAlias type="com.learning.house.common.model.House" alias="house" />
         <typeAlias type="com.learning.house.common.model.City" alias="city" />
-        <typeAlias type="com.learning.house.common.model.Comment"     alias="comment"/>
+        <typeAlias type="com.learning.house.common.model.Comment" alias="comment"/>
         <typeAlias type="com.learning.house.common.model.Community" alias="community" />
         <typeAlias type="com.learning.house.common.model.HouseUser" alias="houseUser" />
-        <typeAlias type="com.learning.house.common.model.Blog"        alias="blog"/>
-        <typeAlias type="com.learning.house.common.model.User"        alias="user"/>
-        <typeAlias type="com.learning.house.common.model.UserMsg"     alias="userMsg"/>
-        <typeAlias type="com.learning.house.common.model.HouseUser"     alias="houseUser"/>
+        <typeAlias type="com.learning.house.common.model.Blog" alias="blog"/>
+        <typeAlias type="com.learning.house.common.model.User" alias="user"/>
+        <typeAlias type="com.learning.house.common.model.UserMsg" alias="userMsg"/>
+        <typeAlias type="com.learning.house.common.model.HouseUser" alias="houseUser"/>
     
     </typeAliases>
     
