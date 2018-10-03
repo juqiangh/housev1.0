@@ -193,6 +193,7 @@
                                                 </div>
                                     <header><h2 class="no-border">Comments</h2></header>
                                     <ul class="comments">
+                                      <#if commentList?? && commentList?size gt 0>
                                       <#list commentList as comment> 
                                         <li class="comment" style="width: 830px;">
                                             <figure>
@@ -209,6 +210,7 @@
                                             </div>
                                         </li>
                                       </#list>
+                                      </#if>
                                     </ul>
                                 </section>
                             </div><!-- /.col-md-12 -->
@@ -244,6 +246,7 @@
                         </aside><!-- /#edit-search -->
                         <aside id="featured-properties">
                             <header><h3>热门房产</h3></header>
+                            <#if recomHouses?? && recomHouses?size gt 0>
                             <#list recomHouses as house>
                             <div class="property small">
                                 <a href="/house/detail?id=${house.id}">
@@ -258,6 +261,7 @@
                                 </div>
                             </div><!-- /.property -->
                             </#list>
+                            </#if>
                         </aside><!-- /#featured-properties -->
                        
                     </section><!-- /#sidebar -->

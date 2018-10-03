@@ -113,6 +113,7 @@
 <#macro hot>
 <aside id="featured-properties">
     <header><h3>热门房产</h3></header>
+    <#if recomHouses?? && recomHouses?size gt 0>
     <#list recomHouses as house>
     <div class="property small">
         <a href="/house/detail?id=${house.id}">
@@ -127,6 +128,7 @@
         </div>
     </div><!-- /.property -->
     </#list>
+    </#if>
 </aside><!-- /#featured-properties -->
 </#macro>
 
